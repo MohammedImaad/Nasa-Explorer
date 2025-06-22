@@ -1,4 +1,4 @@
-const API_BASE = 'https://nasa-backend.onrender.com'; // Change to deployed URL later
+const API_BASE = 'https://nasa-backend-waz8.onrender.com'; // Change to deployed URL later
 
 export async function fetchAPOD() {
   const res = await fetch(`${API_BASE}/apod`);
