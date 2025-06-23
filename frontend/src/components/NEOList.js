@@ -29,6 +29,9 @@ export default function NEOList() {
   return (
     <section style={{ padding: '2rem', backgroundColor: '#fff' }} id="neo">
       <h2 style={{ textAlign: 'center' }}>☄️ Near Earth Objects</h2>
+      <p style={{ textAlign: 'center', marginBottom: '1rem', color: '#555' }}>
+        These asteroids got a little too close — we’re not saying panic, but maybe don’t look up.
+      </p>
       <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
         <input
           type="date"

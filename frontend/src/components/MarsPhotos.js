@@ -30,6 +30,10 @@ export default function MarsPhotos() {
   return (
     <section style={{ padding: '2rem', background: '#f7f7f7' }} id="mars">
       <h2 style={{ textAlign: 'center' }}>📸 Mars Rover Photo Gallery</h2>
+      <p style={{ textAlign: 'center', marginBottom: '1rem', color: '#555' }}>
+        Mars sent us selfies. We’re here admire them like proud space parents.
+      </p>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
         <select value={rover} onChange={e => setRover(e.target.value)}>

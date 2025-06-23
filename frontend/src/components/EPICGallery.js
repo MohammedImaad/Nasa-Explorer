@@ -32,6 +32,9 @@ export default function EPICGallery() {
   return (
     <section id="epic" style={{ padding: '2rem', background: '#f0f8ff' }}>
       <h2 style={{ textAlign: 'center' }}>🌍 EPIC Earth Images</h2>
+      <p style={{ textAlign: 'center', marginBottom: '1rem', color: '#555' }}>
+        Earth caught by space paparazzi — candid shots taken from a million miles away.
+      </p>
       <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
         <input
           type="date"

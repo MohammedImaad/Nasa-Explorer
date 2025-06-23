@@ -37,6 +37,9 @@ export default function NEOChart() {
   return (
     <section id="neo-chart" style={{ padding: '2rem', backgroundColor: '#fefefe' }}>
       <h2 style={{ textAlign: 'center' }}>📊 Asteroid Size vs Distance</h2>
+      <p style={{ textAlign: 'center', marginBottom: '1rem', color: '#555' }}>
+        Asteroid size vs. distance — for when you want to stress-scroll through space math.
+      </p>
 
       <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
         <input
