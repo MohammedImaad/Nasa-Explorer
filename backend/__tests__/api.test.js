@@ -14,4 +14,18 @@ describe('NASA API routes', () => {
     expect(res.statusCode).toBe(400);
     expect(res.body).toHaveProperty('error');
   });
+
+  it('GET /mars-photos should return Curiosity photos on a known date', async () => {
+    const res = await request(app).get('/mars-photos?rover=curiosity&date=2023-06-01');
+    expect(res.statusCode).toBe(200);
+    expect(Array.isArray(res.body)).toBe(true);
+  });
+
+  it('GET /neo with valid start_date should return NEO data', async () => {
+    const res = await request(app).get('/neo?start_date=2023-06-01');
+    expect(res.statusCode).toBe(200);
+    expect(typeof res.body).toBe('object');
+  });
+  
+
 });
